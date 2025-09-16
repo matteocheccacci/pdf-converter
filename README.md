@@ -1,4 +1,4 @@
-# PDF Converter Tool 📄➡️🔄
+# PDF Converter Tool 📄➡️🔄 v0.0.3
 A simple tool created with Python that converts PDFs files to Word, Excel, PowerPoint ant TXT.
 
 
@@ -36,9 +36,12 @@ A simple tool created with Python that converts PDFs files to Word, Excel, Power
 4.  Click "Convert" and choose the destination folder for the converted file.
 
 
-## ⚠️ Attention!
+## ⚠️ Known Issues
 
-This tool performs a "text" conversion. The original formatting, images, and table structure (in the case of Excel) are not preserved. For more complex conversions, professional software is recommended.
+- **Icon Display:** The icon in the title bar may not be displayed correctly on all operating systems or Python versions due to limitations with `tkinter.iconbitmap()` method.
+- **Corrupted Excel/PowerPoint Files:** The tool performs a basic text-only conversion for Excel and PowerPoint. As a result, the converted files (`.xlsx` and `.pptx`) may appear corrupted or damage, as they lack the necessary internal structure to properly display the data.
+- **Non_Text PDF Conversion:** The tool's core logic is based on text extraction. This meand PDFs containing only images (e.g., scanned documents) cannot be converted in to editable text. The output will be an empty file.
+- **Complex Formatting:** The text-only conversion for Word, Excel and PowerPoint files will result in the loss of all original formatting, tables and images. The output is a plain text file saved with the chosen extension.
 
 
 ## 🤝 Contributions
