@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [anno] [nome del titolare del copyright]
+Copyright (c) 2025 Matteo Checcacci
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
